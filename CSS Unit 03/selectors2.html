@@ -24,6 +24,38 @@
         #box + p{
             color:burlywood;
         }
+
+        a:link{
+            text-decoration: none; font-size:12px; font-weight: bold;
+        }
+        a:hover{
+            color:brown;font-size:12px;text-shadow: 10px 10px ;
+        }
+
+        /* ul .odd{
+            color:pink;
+        }
+
+        ul .even{
+            color:red;
+        } */
+         ul li:nth-child(odd){
+            color:blue;
+         } 
+
+         ul li::first-letter{
+            color:#000; font-size:30px
+
+         }
+
+        ul li:after{
+            content:"read more";
+            color:brown;
+        }
+
+        ::marker{
+            color:rgb(216, 129, 14)
+        }
     </style>
 </head>
 <body>
@@ -39,5 +71,13 @@
          dolore, expedita, adipisci fuga quae similique soluta quia rerum eum vel sit assumenda. Minima accusamus inventore aspernatur suscipit.
     </p>
     <a href="">Visit this link</a>
+    <ul>
+        <li class="odd">CSE15</li>
+        <li class="even">CSE16</li>
+        <li class="odd">CSE17</li>
+        <li class="even">CSE18</li>
+        <li class="odd">CSE19</li>
+        <li class="even">CSE20</li>
+    </ul>
 </body>
 </html>
