@@ -6,7 +6,7 @@ body{
     background-repeat: repeat-y;
     background-position: top right;
     background-size: cover; */
-    background: url(Screenshot\ 2025-10-23\ 162319.png) no-repeat top right #999 top 50px;
+    background: url(Screenshot\ 2025-10-23\ 162319.png) no-repeat top right #999 ;
 }
 h1{
     background-color: blue;
